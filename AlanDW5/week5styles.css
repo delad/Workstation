@@ -46,6 +46,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 /* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
 .header {
 	background-color: #FFFFFF;
+	color: #FFF;
 }
 
 /* ~~ These are the columns for the layout. ~~ 
@@ -62,7 +63,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .sidebar1 {
 	float: left;
 	width: 20%;
-	background-color: #93A5C4;
+	background-color: #FFFFFF;
 	padding-bottom: 10px;
 }
 .content {
@@ -93,8 +94,8 @@ ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your li
 	color: #000;
 }
 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
-	background-color: #6F7D94;
-	color: #FFF;
+	background-color: #FFFFFF;
+	color: #666;
 }
 
 /* ~~ The footer ~~ */
